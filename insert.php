@@ -14,7 +14,7 @@ if(isset($_POST['submit']) & !empty($_POST['usertype']) & !empty($_POST['user_na
 	VALUES ('$user_name','$user_mail_id','$user_password_hash',$status,'$authorizedapp_list','$user_type')";
 	$result = mysqli_query($connect,$query) or die('Query Falied');
 	if($result == true){
-		//mail function
+		//mail function writen here
 		?>
 	<script>
 	alert('Record Inserted Successfully, Please check your Mail Id For username and Password');
