@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>prompter Admin</title>
+<title>prompter Admin create</title>
 <link rel="stylesheet" href="css/index.css">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
